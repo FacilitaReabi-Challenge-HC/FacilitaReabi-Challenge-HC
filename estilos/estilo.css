@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    text-decoration: none;
+
+}
+header nav ul {
+    display: flex;
+    gap: 20px; /* espaço entre os botões */
+    list-style: none; /* remove bolinhas */
+    padding: 0
+}
+header nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cecff9c;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 1.5rem;
+    width: 250px;
+    height: 60px;
+}
+
+.inicio{
+
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
