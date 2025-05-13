@@ -3,9 +3,22 @@
     text-decoration: none;
 
 }
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #B7E2F4;
+}
+.logo {
+  width: 250px;   /* ou o tamanho desejado */
+  height: auto;
+  
+  margin: 0;
+  padding: 0;
+}
 header nav ul {
     display: flex;
-    gap: 20px; /* espaço entre os botões */
+    gap: 30px; /* espaço entre os botões */
     list-style: none; /* remove bolinhas */
     padding: 0
 }
@@ -13,17 +26,38 @@ header nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5cecff9c;
+    background-color: #59ddd2;
     color: #000000;
-    border-radius: 5px;
+    border-radius: 35px;
     border: 1px solid #ffffff;
     font-size: 1.5rem;
-    width: 250px;
+    width: 200px;
     height: 60px;
 }
 
 .inicio{
 
+}
+h2{
+    font-size: 35px;
+}
+p{
+    
+}
+.montagem_fotos{
+    float: left;
+}
+.conheca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff3831;
+    color: #000000;
+    border-radius: 35px;
+    border: 1px solid #ffffff;
+    font-size: 1.3rem;
+    width: 210px;
+    height: 50px;
 }
 
 img{
@@ -32,4 +66,5 @@ img{
     margin-right: auto;
     width: 500px;
     height: auto;
+    
 }
