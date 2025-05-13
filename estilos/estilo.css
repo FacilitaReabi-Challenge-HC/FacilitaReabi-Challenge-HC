@@ -105,6 +105,16 @@ img{
     
 }
 
-.faq{
+.clear{
      clear: both;
+}
+
+.faq_img{
+    float: right;
+    width: 400px;   /* ou o tamanho desejado */
+  height: auto;
+}
+
+.clear_abaixo{
+    clear: both;
 }
