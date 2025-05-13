@@ -9,13 +9,14 @@ header {
   padding: 10px 20px;
   background-color: #B7E2F4;
 }
+
 .logo {
-  width: 250px;   /* ou o tamanho desejado */
-  height: auto;
-  
+  width: 150px;   /* ou o tamanho desejado */
+  height: 100px;
   margin: 0;
   padding: 0;
 }
+
 header nav ul {
     display: flex;
     gap: 30px; /* espaço entre os botões */
@@ -34,6 +35,16 @@ header nav ul li a{
     width: 200px;
     height: 60px;
 }
+.menu-toggle {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 
 .inicio{
 
@@ -46,6 +57,7 @@ p{
 }
 .montagem_fotos{
     float: left;
+    width: 600px;
 }
 .conheca{
     display: flex;
