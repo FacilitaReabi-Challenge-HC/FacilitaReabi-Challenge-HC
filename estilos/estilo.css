@@ -118,3 +118,88 @@ img{
 .clear_abaixo{
     clear: both;
 }
+
+
+/* Typical device Breakpoints
+ Extra Small devices : @media (max-width: 600px) {...}
+ Small devices : @media (min-width: 600px) {...}
+ Medium devices : @media (min-width: 768px) {...}
+ • Large devices : @media (min-width: 992px) {...}
+ • Extra-Large devices : @media (min-width: 1300px) {...
+ */
+
+ @media (max-width:600px){
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    position: relative;/* Importante: alinha ao canto esquerdo */
+    padding: 10px;
+    width: 100%;
+     
+  }
+   .titulo_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .titulo_logo h1{
+  font-size: 2.5rem;
+  margin: 0 auto;         /* <-- centraliza horizontalmente */
+  text-align: center;
+  flex: 1; 
+  }
+  .logo {
+  width: 100px;   /* ou o tamanho desejado */
+  height: auto;
+  }
+ 
+
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  header nav ul li a{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #59ddd2;
+        color: #000000;
+        border-radius: 35px;
+        border: 1px solid #ffffff;
+        font-size: 1rem;
+        height: 60px;
+    }
+  .montagem_fotos{
+    max-width: 50vw;
+    float: left;
+    padding: 10px;
+  }
+  .conheca{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+ }
+
+ @media (min-width:600px){
+
+ }
+
+ @media (min-width:768px){
+
+ }
+
+ @media (min-width:992x){
+
+ }
+
+ @media (min-width:1300px){
+
+ }
