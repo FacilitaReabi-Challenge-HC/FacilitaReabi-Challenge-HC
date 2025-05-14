@@ -109,11 +109,7 @@ img{
      clear: both;
 }
 
-.faq_img{
-    float: right;
-    width: 400px;   /* ou o tamanho desejado */
-  height: auto;
-}
+
 
 .clear_abaixo{
     clear: both;
@@ -145,16 +141,16 @@ img{
     justify-content: flex-start;
   }
   .titulo_logo h1{
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin: 0 auto;         /* <-- centraliza horizontalmente */
   text-align: center;
   flex: 1; 
   }
+
   .logo {
   width: 100px;   /* ou o tamanho desejado */
   height: auto;
   }
- 
 
   header nav ul{
     display: flex;
@@ -180,11 +176,33 @@ img{
     float: left;
     padding: 10px;
   }
+  
   .conheca{
     display: flex;
     justify-content: center;
+    
     margin: 20px auto;
+    
   }
+  .cor_fundo{
+    background-color:  #B7E2F4;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .faq img{
+    max-width: 70vw;
+  }
+  .contato img{
+    max-width: 70vw;
+  }
+  .logo_facilitareabi{
+    float: right;
+    max-width: 40vw;
+    margin-right: 10px;
+  }
+
+
+  
 
  }
 
