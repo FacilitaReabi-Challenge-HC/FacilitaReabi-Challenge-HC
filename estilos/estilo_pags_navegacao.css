@@ -35,3 +35,14 @@
 p{
     margin-right: 30px; /* espaçamento entre imagem e texto */
 }
+
+.faq p,
+.faq li {
+  font-size: 24px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+.app p,
+.app li {
+  font-size: 16px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
