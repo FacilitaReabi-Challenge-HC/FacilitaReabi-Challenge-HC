@@ -1,0 +1,214 @@
+.foto_app{
+    clear: both;
+    float: right;
+    width: 150px;
+    margin-right: 10%;
+}
+
+.clear{
+    clear: both;
+}
+.montagem_fotos{
+    float: left;
+    margin-left: 10%;
+
+}
+ .cor_fundo_meio{
+    background-color:  #B7E2F4;
+    
+
+ }
+.foto_teleconsulta_app{
+    float: left;
+    margin-left: 10%;
+ }
+
+
+.cor_fundo{
+    margin-top: 25%;
+}
+.logo_facilitareabi{
+    float: right;
+    margin-right: 10%;
+    width: 200px;
+}
+p{
+    margin-right: 30px; /* espaçamento entre imagem e texto */
+}
+
+
+@media (max-width:600px){
+    .foto_app{
+    clear: both;
+    float: right;
+    width: 120px;
+    margin-right: 2%;
+}
+    .montagem_fotos{
+    float: left;
+    margin-left: 1%;
+    width: 350px;
+
+}
+    .foto_teleconsulta_app{
+    float: left;
+    margin-left: 1%;
+    width: 350px;
+ }
+ 
+    .logo_facilitareabi{
+    float: right;
+    margin-right: 1%;
+    width: 200px;
+}
+.faq p,
+.faq li {
+  font-size: 32px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+.app p,
+.app li {
+  font-size: 32px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+
+}
+@media (min-width:600px) {
+    .foto_app{
+    clear: both;
+    float: right;
+    width: 120px;
+    margin-right: 2%;
+}
+    .montagem_fotos{
+    float: left;
+    margin-left: 1%;
+    width: 640px;
+
+
+}
+    .foto_teleconsulta_app{
+    float: left;
+    margin-left: 1%;
+    width: 640px;
+ }
+    .logo_facilitareabi{
+    float: right;
+    margin-right: 1%;
+    width: 250px;
+}
+.cor_fundo{
+    margin-top: 25%;
+}
+p,li {
+  font-size: 32px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+h2{
+    font-size: 32px;
+}
+ 
+}
+@media (min-width:768px){
+    .foto_app{
+    clear: both;
+    float: right;
+    width: 180px;
+    margin-right: 2%;
+}
+    .montagem_fotos{
+    float: left;
+    margin-left: 1%;
+    width: 640px;
+
+}
+    .foto_teleconsulta_app{
+    float: left;
+    margin-left: 1%;
+    width: 420px;
+ }
+    .logo_facilitareabi{
+    float: right;
+    margin-right: 1%;
+    width: 300px;
+}
+.cor_fundo{
+    margin-top: 25%;
+}
+p,li {
+  font-size: 40px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+h2{
+    font-size: 40px;
+}
+
+}
+@media (min-width:992){
+        .foto_app{
+    clear: both;
+    float: right;
+    width: 180px;
+    margin-right: 2%;
+}
+    .montagem_fotos{
+    float: left;
+    margin-left: 1%;
+    width: 640px;
+
+}
+    .foto_teleconsulta_app{
+    float: left;
+    margin-left: 1%;
+    width: 620px;
+ }
+    .logo_facilitareabi{
+    float: right;
+    margin-right: 1%;
+    width: 350px;
+}
+.cor_fundo{
+    margin-top: 25%;
+}
+p,li {
+  font-size: 40px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+h2{
+    font-size: 40px;
+}
+}
+@media (min-width:1300){
+.foto_app{
+    clear: both;
+    float: right;
+    width: 300px;
+    margin-right: 2%;
+}
+.montagem_fotos{
+    float: left;
+    margin-left: 1%;
+    width: 640px;
+
+}
+.foto_teleconsulta_app{
+    float: left;
+    margin-left: 1%;
+    width: 700px;
+ }
+.logo_facilitareabi{
+    float: right;
+    margin-right: 1%;
+    width: 400px;
+}
+.cor_fundo{
+    margin-top: 25%;
+}
+p,li {
+  font-size: 54px; /* ou o tamanho que preferir */
+  line-height: 1.5; /* opcional: melhora a leitura */
+}
+h2{
+    font-size: 54px;
+}
+}
