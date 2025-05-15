@@ -11,6 +11,7 @@ Oferece conteúdo acessível e visual para pessoas com baixa afinidade digital
 Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológicas
 
 🗂️ **Estrutura do Projeto**
+
 /img                     
 /estilos                
 /paginas
