@@ -13,20 +13,11 @@ header {
 }
 
 .titulo_logo{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-right: 30px; /* espaçamento entre imagem e texto */
-    
+   margin-right: 180px; /* espaçamento entre imagem e texto */  
 }
-.logo {
-  width: 200px;   /* ou o tamanho desejado */
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
+
 header nav{
-    flex: 1;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -37,6 +28,7 @@ header nav ul {
     list-style: none; /* remove bolinhas */
     padding: 0
 }
+
 header nav ul li a{
     display: flex;
     justify-content: center;
@@ -49,8 +41,9 @@ header nav ul li a{
     width: 200px;
     height: 60px;
 }
+
 .menu-toggle {
-  font-size: 2rem;
+  font-size: 4rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -60,22 +53,10 @@ header nav ul li a{
   right: 20px;
 }
 
-.inicio{
-    
-
-}
-h1{
-    font-size: small;
-    
-}
-h2{
-    font-size: 35px;
-     margin-left: 22px;
-}
 p{
-     margin-left: 22px;
-    
+     margin-left: 22px; 
 }
+
 .montagem_fotos{
     float: left;
     width: 600px;
@@ -83,6 +64,7 @@ p{
     margin-bottom: 20px;
     margin-left: 22px;
 }
+
 .conheca{
     display: flex;
     justify-content: center;
@@ -102,18 +84,9 @@ img{
     margin-right: auto;
     width: 500px;
     height: auto;
-    
-}
-
-.clear{
-     clear: both;
 }
 
 
-
-.clear_abaixo{
-    clear: both;
-}
 
 
 /* Typical device Breakpoints
@@ -171,6 +144,25 @@ img{
         font-size: 1rem;
         height: 60px;
     }
+  .menu-toggle {
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+    h2{
+      display: flex;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+    p{
+      font-size: 2rem;
+    }
+    
   .montagem_fotos{
     max-width: 50vw;
     float: left;
@@ -249,6 +241,24 @@ img{
         font-size: 1rem;
         height: 60px;
     }
+  .menu-toggle {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+    h2{
+      display: flex;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+    p{
+      font-size: 2rem;
+    }
   .montagem_fotos{
     max-width: 50vw;
     float: left;
@@ -283,24 +293,82 @@ img{
 
  @media (min-width:768px){
   .logo {
-  width: 150px;   /* ou o tamanho desejado */
-  height: auto;
+        width: 150px;   /* ou o tamanho desejado */
+        height: auto;
   }
   .titulo_logo h1{
-  font-size: 3em;
-  margin: 0 auto;         /* <-- centraliza horizontalmente */
-  text-align: center;
-  flex: 1; 
+      font-size: 3em;
+     margin: 0 auto;         /* <-- centraliza horizontalmente */
+     text-align: center;
+     flex: 1; 
+  }
+  header nav ul{
+      display: flex;
+      flex-direction: row;
+     align-items: center;
+     gap: 30px;
+     margin-top: 10px;
+  }
+  header nav ul li a{
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #59ddd2;
+      color: #000000;
+      border-radius: 35px;
+      border: 1px solid #ffffff;
+      font-size: 1.2rem;
+      height: 60px;
+        
+    }
+  .menu-toggle {
+    font-size: 3.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+    h2{
+      display: flex;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+    p{
+      font-size: 2rem;
+    }
+    .logo_facilitareabi{
+      float: right;
+      max-width: 50vw;
+     margin-right: 10px;
+  }
+
+ }
+
+ @media (min-width:992px){
+  
+  .logo {
+      width: 250px;   /* ou o tamanho desejado */
+      height: auto;
+  }
+  .titulo_logo h1{
+      font-size: 4em;
+      margin: 0 auto;         /* <-- centraliza horizontalmente */
+      text-align: center;
+       flex: 1; 
   }
   header nav ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     margin-top: 10px;
   }
   header nav ul li a{
-        width: 120px;
+        width: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -308,10 +376,106 @@ img{
         color: #000000;
         border-radius: 35px;
         border: 1px solid #ffffff;
-        font-size: 1.2rem;
-        height: 60px;
+        font-size: 1.8rem;
+        height: 90px;
         
     }
+  .menu-toggle {
+      font-size: 4.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #000;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+}
+    h2{
+      display: flex;
+      justify-content: center;
+      font-size: 3.5rem;
+    }
+
+    p{
+      font-size: 2rem;
+    }
+  
+  .conheca{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 20px auto;
+    font-size: 2rem
+  }
+    .logo_facilitareabi{
+    float: right;
+    max-width: 50vw;
+    margin-right: 10px;
+  }
+
+
+ }
+
+ @media (min-width:1300px){
+   .logo {
+      width: 300px;   /* ou o tamanho desejado */
+      height: auto;
+  }
+  .titulo_logo h1{
+      font-size: 4.5em;
+      margin: 0 auto;         /* <-- centraliza horizontalmente */
+      text-align: center;
+      flex: 1; 
+  }
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-top: 10px;
+  }
+  header nav ul li a{
+        width: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #59ddd2;
+        color: #000000;
+        border-radius: 35px;
+        border: 1px solid #ffffff;
+        font-size: 1.8rem;
+        height: 100px;
+        
+    }
+  .menu-toggle {
+        font-size: 4.5rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #000;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+} 
+    
+
+    h2{
+      display: flex;
+      justify-content: center;
+      font-size: 3.5rem;
+    }
+
+    p{
+      font-size: 2rem;
+    }
+  
+  .conheca{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 20px auto;
+    font-size: 2rem
+  }
     .logo_facilitareabi{
     float: right;
     max-width: 50vw;
@@ -319,11 +483,4 @@ img{
   }
 
  }
-
- @media (min-width:992x){
-
- }
-
- @media (min-width:1300px){
-
- }
+ 
