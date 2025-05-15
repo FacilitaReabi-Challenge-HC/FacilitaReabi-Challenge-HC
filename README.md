@@ -24,11 +24,17 @@ index.html  (raiz do projeto)
 💻 **Tecnologias Utilizadas**
 
 HTML5
+
 CSS3
+
 JS
+
 Design focado em acessibilidade e leitura fácil
+
 Imagens e ícones explicativos
+
 Estrutura responsiva para dispositivos móveis
+
 
 👥 **Integrantes**
 
