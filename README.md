@@ -35,8 +35,11 @@ Estrutura responsiva para dispositivos móveis
 1TDSPJ
 
 Felipe Maglio Filho 
+
 Rafael Rogrigues Trindade
+
 Vitória Valentina Maglio
+
 
 🌐 **Acesse o Repositório**
 🔗
