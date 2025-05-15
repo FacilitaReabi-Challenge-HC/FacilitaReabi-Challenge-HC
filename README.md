@@ -31,7 +31,9 @@ Imagens e ícones explicativos
 Estrutura responsiva para dispositivos móveis
 
 👥 **Integrantes**
+
 1TDSPJ
+
 Felipe Maglio Filho 
 Rafael Rogrigues Trindade
 Vitória Valentina Maglio
