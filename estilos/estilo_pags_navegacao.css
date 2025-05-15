@@ -1,0 +1,37 @@
+.foto_app{
+    clear: both;
+    float: right;
+    width: 150px;
+    margin-right: 10%;
+}
+
+.clear{
+    clear: both;
+}
+.montagem_fotos{
+    float: left;
+    margin-left: 10%;
+
+}
+ .cor_fundo_meio{
+    background-color:  #B7E2F4;
+    
+
+ }
+.foto_teleconsulta_app{
+    float: left;
+    margin-left: 10%;
+ }
+
+
+.cor_fundo{
+    margin-top: 25%;
+}
+.logo_facilitareabi{
+    float: right;
+    margin-right: 10%;
+    width: 200px;
+}
+p{
+    margin-right: 30px; /* espaçamento entre imagem e texto */
+}
