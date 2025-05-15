@@ -43,7 +43,6 @@ header nav ul li a{
 }
 
 .menu-toggle {
-  font-size: 4rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -146,13 +145,7 @@ img{
     }
   .menu-toggle {
     font-size: 2.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    
 }
     h2{
       display: flex;
@@ -243,13 +236,7 @@ img{
     }
   .menu-toggle {
     font-size: 3rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+   
 }
     h2{
       display: flex;
@@ -324,13 +311,7 @@ img{
     }
   .menu-toggle {
     font-size: 3.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    
 }
     h2{
       display: flex;
@@ -382,14 +363,8 @@ img{
     }
   .menu-toggle {
       font-size: 4.5rem;
-      background: none;
-      border: none;
-      cursor: pointer;
-      color: #000;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-}
+  }
+    
     h2{
       display: flex;
       justify-content: center;
@@ -449,13 +424,7 @@ img{
     }
   .menu-toggle {
         font-size: 4.5rem;
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: #000;
-        position: absolute;
-        top: 20px;
-        right: 20px;
+        
 } 
     
 
@@ -482,5 +451,4 @@ img{
     margin-right: 10px;
   }
 
- }
- 
+}
