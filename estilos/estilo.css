@@ -109,7 +109,7 @@ img{
     margin-right: 100px;
   }
   .titulo_logo h1{
-  font-size: 2.7rem;
+  font-size: 2rem;
   margin: 0 auto;         /* <-- centraliza horizontalmente */
   text-align: center;
   flex: 1; 
