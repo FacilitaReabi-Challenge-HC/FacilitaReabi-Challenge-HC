@@ -303,9 +303,10 @@ img{
     
   }
   .cor_fundo{
-    background-color:  #B7E2F4;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    background-color: #B7E2F4;
+    padding: 4rem 0;
+    margin: 2rem 0;
+    border-radius: 8px;
   }
   .faq img{
     max-width: 70vw;
