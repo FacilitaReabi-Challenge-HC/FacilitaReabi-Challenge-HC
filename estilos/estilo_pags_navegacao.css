@@ -37,6 +37,11 @@ p{
     margin-right: 30px; /* espaçamento entre imagem e texto */
 }
 
+.foto_integrantes img{
+    border-radius: 250px;
+    width: 200px;
+}
+
 
 @media (max-width:600px){
     .foto_app{
