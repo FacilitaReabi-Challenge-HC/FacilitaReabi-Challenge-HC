@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
-  <script src="../js/faq.js"></script>
 document.addEventListener("DOMContentLoaded", function () {
   const botao = document.getElementById("btn-toggle");
   const divDicas = document.getElementById("dicasExtras");
