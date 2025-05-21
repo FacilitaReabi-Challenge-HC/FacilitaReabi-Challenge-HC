@@ -1,4 +1,10 @@
 /*Arquivo CSS para estilização geral das páginas*/
+
+.espacamento {
+  margin-bottom: 0.1em; /* Controla o espaçamento entre os parágrafos, para substituir a tag <br> no código. */
+}
+
+
 * {
     padding: 0;
     margin: 0;
