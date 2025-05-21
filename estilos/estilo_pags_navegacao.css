@@ -43,6 +43,9 @@ p{
 }
 
 
+
+
+
 @media (max-width:600px){
     .foto_app{
     clear: both;
@@ -157,7 +160,7 @@ h2{
     width: 180px;
     margin-right: 2%;
 }
-    .montagem_fotos{
+    img.montagem_fotos{
     float: left;
     margin-left: 1%;
     width: 640px;
@@ -183,6 +186,7 @@ p,li {
 h2{
     font-size: 40px;
 }
+
 }
 @media (min-width:1300){
 .foto_app{
@@ -217,4 +221,5 @@ p,li {
 h2{
     font-size: 54px;
 }
+
 }
