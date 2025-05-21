@@ -102,3 +102,28 @@
 </body>
 
 </html>
+ <button id="btn-toggle" style="margin: 20px;">Clique aqui para ver mais dicas!</button>
+
+<div id="dicasExtras" style="display: none; margin: 20px;">
+  <h3>🛠️ Mais dicas para sua teleconsulta:</h3>
+  <ul>
+    <li>✅ Teste sua câmera e microfone antes do horário marcado.</li>
+    <li>✅ Mantenha o celular carregado ou perto da tomada.</li>
+    <li>✅ Use fones de ouvido se estiver em um lugar barulhento.</li>
+  </ul>
+</div>
+ <script src="../js/faq.js"></script>
+document.addEventListener("DOMContentLoaded", function () {
+  const botao = document.getElementById("btn-toggle");
+  const divDicas = document.getElementById("dicasExtras");
+
+  botao.addEventListener("click", function () {
+    if (divDicas.style.display === "none") {
+      divDicas.style.display = "block";
+      botao.textContent = "Ocultar dicas";
+    } else {
+      divDicas.style.display = "none";
+      botao.textContent = "Clique aqui para ver mais dicas!";
+    }
+  });
+});

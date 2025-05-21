@@ -38,3 +38,18 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+  <script src="../js/faq.js"></script>
+document.addEventListener("DOMContentLoaded", function () {
+  const botao = document.getElementById("btn-toggle");
+  const divDicas = document.getElementById("dicasExtras");
+
+  botao.addEventListener("click", function () {
+    if (divDicas.style.display === "none") {
+      divDicas.style.display = "block";
+      botao.textContent = "Ocultar dicas";
+    } else {
+      divDicas.style.display = "none";
+      botao.textContent = "Clique aqui para ver mais dicas!";
+    }
+  });
+});
