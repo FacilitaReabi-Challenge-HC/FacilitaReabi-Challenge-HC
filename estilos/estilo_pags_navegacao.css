@@ -39,6 +39,7 @@ p{margin-right: 30px; }
     .faq li {font-size: 32px; line-height: 1.5; }
     .app p,
     .app li {font-size: 32px;line-height: 1.5; }}
+
 @media (min-width:600px) {
     .foto_app{
         clear: both;
@@ -123,6 +124,7 @@ p{margin-right: 30px; }
     .cor_fundo{margin-top: 25%;}
     p,li {font-size: 54px; line-height: 1.5; }
     h2{font-size: 54px;}}
+
 
     /*js*/
 form#formContato,
