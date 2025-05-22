@@ -133,3 +133,8 @@ input,textarea,select {font-size: 2.8rem;}
 form#formContato button,
 form#formTriagem button {font-size: 2.8rem;}
 .erro {font-size: 2rem;}
+label, select {
+  display: block;
+  margin-bottom: 10px;
+}
+

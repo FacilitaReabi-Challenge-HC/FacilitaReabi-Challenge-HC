@@ -1,7 +1,8 @@
-// Validação do formulário de contato
-document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('formContato');
-    form.addEventListener('submit', function (event) {
+document.addEventListener("DOMContentLoaded", function () {
+  //  CONTATO
+  const formContato = document.getElementById('formContato');
+  if (formContato) {
+    formContato.addEventListener('submit', function (event) {
       event.preventDefault();
       const nome = document.getElementById('nome');
       const email = document.getElementById('email');
@@ -27,31 +28,31 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       if (valid) {
         alert('Mensagem enviada com sucesso!');
-        form.reset();
+        formContato.reset();
       }
     });
-  });
-document.addEventListener("DOMContentLoaded", function () {
-  const botao = document.getElementById("btn-toggle");
-  const divDicas = document.getElementById("dicasExtras");
-  botao.addEventListener("click", function () {
-    if (divDicas.style.display === "none") {
-      divDicas.style.display = "block";
-      botao.textContent = "Ocultar dicas";
-    } else {
-      divDicas.style.display = "none";
-      botao.textContent = "Clique aqui para ver mais dicas!";
-    }
-  });
-});
-// Validação do formulário de TRIAGEM
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("formTriagem");
+  }
+  //  FAQ
+  const botaoFAQ = document.getElementById("btn-toggle");
+  const divDicasFAQ = document.getElementById("dicasExtras");
+  if (botaoFAQ && divDicasFAQ) {
+    botaoFAQ.addEventListener("click", function () {
+      if (divDicasFAQ.style.display === "none" || divDicasFAQ.style.display === "") {
+        divDicasFAQ.style.display = "block";
+        botaoFAQ.textContent = "Ocultar dicas";
+      } else {
+        divDicasFAQ.style.display = "none";
+        botaoFAQ.textContent = "Clique aqui para ver mais dicas!";
+      }
+    });
+  }
+  // TRIAGEM 
+  const formTriagem = document.getElementById("formTriagem");
   const resultado = document.getElementById("resultadoTriagem");
-  const btnToggle = document.getElementById("btnToggleRecomendacoes");
+  const btnToggleRecomendacoes = document.getElementById("btnToggleRecomendacoes");
   const divRecomendacoes = document.getElementById("recomendacoes");
-  if (form) {
-    form.addEventListener("submit", function (e) {
+  if (formTriagem) {
+    formTriagem.addEventListener("submit", function (e) {
       e.preventDefault();
       const internet = document.getElementById("internet");
       const dispositivo = document.getElementById("dispositivo");
@@ -92,30 +93,17 @@ document.addEventListener("DOMContentLoaded", function () {
       resultado.innerHTML = mensagem;
       resultado.style.display = "block";
     });
-    btnToggle.addEventListener("click", function () {
-      if (divRecomendacoes.style.display === "none") {
-        divRecomendacoes.style.display = "block";
-        btnToggle.textContent = "Ocultar Recomendações";
-      } else {
-        divRecomendacoes.style.display = "none";
-        btnToggle.textContent = "Mostrar Recomendações";
-      }
-    });
+    if (btnToggleRecomendacoes && divRecomendacoes) {
+      btnToggleRecomendacoes.addEventListener("click", function () {
+        if (divRecomendacoes.style.display === "none" || divRecomendacoes.style.display === "") {
+          divRecomendacoes.style.display = "block";
+          btnToggleRecomendacoes.textContent = "Ocultar Recomendações";
+        } else {
+          divRecomendacoes.style.display = "none";
+          btnToggleRecomendacoes.textContent = "Mostrar Recomendações";
+        }
+      });
+    }
   }
 });
-document.addEventListener("DOMContentLoaded", function () {
-  const botao = document.getElementById("btn-toggle");
-  const divDicas = document.getElementById("dicasExtras");
 
-  if (botao && divDicas) {
-    botao.addEventListener("click", function () {
-      if (divDicas.style.display === "none") {
-        divDicas.style.display = "block";
-        botao.textContent = "Ocultar dicas";
-      } else {
-        divDicas.style.display = "none";
-        botao.textContent = "Clique aqui para ver mais dicas!";
-      }
-    });
-  }
-});
