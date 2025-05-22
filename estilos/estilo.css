@@ -200,6 +200,9 @@ img{
     float: left;
     padding: 10px;
   }
+  .fotos_index{
+    width: 300px;
+  }
   
   .conheca{
     display: flex;
@@ -300,6 +303,10 @@ img{
     float: left;
     padding: 10px;
   }
+  .fotos_index{
+    width: 600px;
+  }
+  
   
   .conheca{
     display: flex;
@@ -387,6 +394,10 @@ img{
       max-width: 50vw;
      margin-right: 10px;
   }
+  .fotos_index{
+    width: 700px;
+  }
+  
 
  }
 
@@ -457,6 +468,9 @@ img{
     float: right;
     max-width: 50vw;
     margin-right: 10px;
+  }
+  .fotos_index{
+    width: 900px;
   }
 
 
@@ -531,6 +545,9 @@ img{
     float: right;
     max-width: 50vw;
     margin-right: 10px;
+  }
+  .fotos_index{
+    width: 1200px;
   }
 
 }
