@@ -261,7 +261,7 @@ img{
 
   header nav ul{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 40px;
     margin-top: 10px;
@@ -280,6 +280,7 @@ img{
     }
   .menu-toggle {
     font-size: 3rem;
+    display: none;
    
 }
     
@@ -351,9 +352,9 @@ img{
   }
   header nav ul{
       display: flex;
-      flex-direction: row;
+      flex-wrap: wrap;
      align-items: center;
-     gap: 50px;
+     gap: 30px;
      margin-top: 10px;
   }
   header nav ul li a{
