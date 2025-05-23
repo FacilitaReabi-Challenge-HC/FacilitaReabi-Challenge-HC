@@ -54,11 +54,11 @@ Estrutura responsiva para dispositivos móveis
 
 1TDSPJ
 
-Felipe Maglio Filho 
+Felipe Maglio Filho 563512
 
-Rafael Rogrigues Trindade
+Rafael Rogrigues Trindade 564303
 
-Vitória Valentina Maglio
+Vitória Valentina Maglio 563509
 
 
 🌐 **Acesse o Repositório**
