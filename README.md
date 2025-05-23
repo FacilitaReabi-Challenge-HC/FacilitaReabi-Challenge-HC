@@ -16,10 +16,12 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
 /estilos 
 
 ├── estilo.css
+
 ├── estilo_pags_navegacao.css
 /img  
 
 ├── fotos utilizadas no projeto
+
 /js
 
 ├── script.js
