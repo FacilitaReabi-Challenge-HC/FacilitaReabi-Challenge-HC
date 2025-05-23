@@ -44,15 +44,6 @@ header nav ul li a:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
 .index {line-height: 1.5; }
-.menu-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    margin-right: 30px;}
 p{
      margin-left: 22px; 
      text-align: justify;
@@ -120,7 +111,6 @@ img{
       border: 1px solid #ffffff;
       font-size: 1rem;
       height: 60px;}
-    .menu-toggle {font-size: 2.5rem;}
     h2{
       display: flex;
       justify-content: center;
@@ -189,9 +179,6 @@ img{
       border: 1px solid #ffffff;
       font-size: 1rem;
       height: 60px;}
-    .menu-toggle {
-      font-size: 3rem;
-      display: none;}
     h2{
       display: flex;
       justify-content: center;
@@ -248,7 +235,6 @@ img{
       border: 1px solid #ffffff;
       font-size: 1.2rem;
       height: 60px;}
-    .menu-toggle {font-size: 3.5rem;}
     h2{
       display: flex;
       justify-content: center;
@@ -290,8 +276,7 @@ img{
       border-radius: 35px;
       border: 1px solid #ffffff;
       font-size: 1.8rem;
-      height: 90px; }
-    .menu-toggle {font-size: 4.5rem; }  
+      height: 90px; }  
     h2{
       display: flex;
       justify-content: center;
@@ -339,9 +324,6 @@ img{
       border: 1px solid #ffffff;
       font-size: 1.8rem;
       height: 100px;}
-    .menu-toggle {
-      font-size: 4.5rem;
-      margin-right: 30px;} 
     h2{
       display: flex;
       justify-content: center;
@@ -362,5 +344,3 @@ img{
       max-width: 50vw;
       margin-right: 10px;}
     .fotos_index{width: 1200px;}}
-
-
