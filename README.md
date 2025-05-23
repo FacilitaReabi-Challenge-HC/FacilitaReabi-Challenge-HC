@@ -12,14 +12,20 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
 
 🗂️ **Estrutura do Projeto**
 
-/img                     
-/estilos                
+                   
+/estilos 
+├── estilo.css
+├── estilo_pags_navegacao.css
+/img  
+├── fotos utilizadas no projeto
+/js
+├── script.js
 /paginas
-
   ├── aplicativo.html     
   ├── faq.html            
   ├── contato.html        
-  └── integrantes.html   
+  └── integrantes.html  
+  ├── triagem.html
 index.html  (raiz do projeto)
 
 💻 **Tecnologias Utilizadas**
