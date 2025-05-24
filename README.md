@@ -18,6 +18,11 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
 ├── estilo.css
 
 ├── estilo_pags_navegacao.css
+
+/icon
+
+├──icon
+
 /img  
 
 ├── fotos utilizadas no projeto
