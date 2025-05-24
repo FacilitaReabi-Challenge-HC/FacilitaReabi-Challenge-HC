@@ -9,14 +9,12 @@
 .cor_fundo_meio{background-color:  #B7E2F4;}
 .foto_teleconsulta_app{float: left;margin-left: 10%;}
 .cor_fundo{margin-top: 25%;}
+.centralizar{margin: 0 auto;text-align: center;}
 .logo_facilitareabi{
     float: right;
     margin-right: 10%;
     width: 200px;}
 p{margin-right: 30px; }
-.foto_integrantes img{
-    border-radius: 250px;
-    width: 400px;}
 @media (max-width:600px){
     .foto_app{
         clear: both;
@@ -38,7 +36,13 @@ p{margin-right: 30px; }
     .faq p,
     .faq li {font-size: 32px; line-height: 1.5; }
     .app p,
-    .app li {font-size: 32px;line-height: 1.5; }}
+    .app li {font-size: 32px;line-height: 1.5; }
+    .foto_integrantes img{
+        border-radius: 250px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;}}
 @media (min-width:600px) {
     .foto_app{
         clear: both;
@@ -59,7 +63,12 @@ p{margin-right: 30px; }
         width: 250px;}
     .cor_fundo{margin-top: 25%;}
     p,li {font-size: 32px; line-height: 1.5; }
-    h2{font-size: 32px;}}
+    h2{font-size: 32px;}
+    .foto_integrantes img{
+        border-radius: 250px;
+        width: 600px;
+        display: block;
+        margin: 0 auto;}}
 @media (min-width:768px){
     .foto_app{
         clear: both;
@@ -80,7 +89,12 @@ p{margin-right: 30px; }
         width: 300px;}
     .cor_fundo{margin-top: 25%;}
     p,li {font-size: 40px; line-height: 1.5; }
-    h2{font-size: 40px;}}
+    h2{font-size: 40px;}
+    .foto_integrantes img{
+        border-radius: 250px;
+        width: 700px;
+        display: block;
+        margin: 0 auto;}}
 @media (min-width:992){
     .foto_app{
         clear: both;
@@ -101,7 +115,12 @@ p{margin-right: 30px; }
         width: 350px;}
     .cor_fundo{margin-top: 25%;}
     p,li {font-size: 40px; line-height: 1.5; }
-    h2{font-size: 40px;}}
+    h2{font-size: 40px;}
+    .foto_integrantes img{
+        border-radius: 250px;
+        width: 900px;
+        display: block;
+        margin: 0 auto;}}
 @media (min-width:1300){
     .foto_app{
         clear: both;
@@ -122,7 +141,12 @@ p{margin-right: 30px; }
         width: 400px;}
     .cor_fundo{margin-top: 25%;}
     p,li {font-size: 54px; line-height: 1.5; }
-    h2{font-size: 54px;}}
+    h2{font-size: 54px;}
+    .foto_integrantes img{
+        border-radius: 250px;
+        width: 1000px;
+        display: block;
+        margin: 0 auto;}}
     /*js*/
 form#formContato,
 form#formTriagem {font-size: 2.8rem;line-height: 2;}
