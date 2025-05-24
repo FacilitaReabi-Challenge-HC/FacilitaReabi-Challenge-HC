@@ -67,7 +67,7 @@ Vitória Valentina Maglio 563509
 
 
 🌐 **Acesse o Repositório**
-🔗 (https://github.com/FacilitaReabi-Challenge-HC)
+🔗 (https://github.com/FacilitaReabi-Challenge-HC/FacilitaReabi-Challenge-HC)
 
 📌 **Observações**
 Este projeto foi desenvolvido como parte do Challenge proposto pela FIAP, no qual o Hospital das Clínicas apresentou para os alunos do curso Análise e Desenvolvimento de sistemas um problema real que eles enfrentam:
