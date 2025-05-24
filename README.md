@@ -33,7 +33,7 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
 
 /paginas
 
-  ├── aplicativo.html     
+  ├── aplicativo.html  
   ├── faq.html            
   ├── contato.html        
   └── integrantes.html  

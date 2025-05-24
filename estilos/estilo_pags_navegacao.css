@@ -113,7 +113,7 @@ p{margin-right: 30px; }
         float: right;
         margin-right: 1%;
         width: 350px;}
-    .cor_fundo{margin-top: 25%;}
+    .cor_fundo{width: 100%;}
     p,li {font-size: 40px; line-height: 1.5; }
     h2{font-size: 40px;}
     .foto_integrantes img{
@@ -139,7 +139,7 @@ p{margin-right: 30px; }
         float: right;
         margin-right: 1%;
         width: 400px;}
-    .cor_fundo{margin-top: 25%;}
+    .cor_fundo{width: 100%;}
     p,li {font-size: 54px; line-height: 1.5; }
     h2{font-size: 54px;}
     .foto_integrantes img{
