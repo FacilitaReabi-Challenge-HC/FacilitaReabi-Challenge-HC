@@ -62,7 +62,7 @@ Imagens e ícones explicativos
 
 Estrutura responsiva para dispositivos móveis
 
---
+---
 
 👥 **Integrantes**
 
