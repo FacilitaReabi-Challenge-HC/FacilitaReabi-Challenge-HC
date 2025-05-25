@@ -42,6 +42,7 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
   ├── contato.html        
   └── integrantes.html  
   ├── triagem.html
+
 index.html  (raiz do projeto)
 
 
