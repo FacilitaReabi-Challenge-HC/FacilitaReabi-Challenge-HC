@@ -2,6 +2,8 @@
 
 FacilitaReabi é um site inclusivo criado para auxiliar pacientes do Instituto de Medicina Física e Reabilitação (IMREA) do Hospital das Clínicas da Faculdade de Medicina da USP a participarem de teleconsultas de forma simples, acessível e sem barreiras digitais.
 
+---
+
 🎯 **Objetivo do Projeto**
 
 Ajudar a reduzir o absenteísmo nas teleconsultas por meio de um site que:
