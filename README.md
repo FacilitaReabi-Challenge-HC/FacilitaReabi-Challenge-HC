@@ -48,6 +48,22 @@ index.html  (raiz do projeto)
 
 ---
 
+🗂️ **Estrutura das Páginas**
+
+Página Início: É a página inicial do projeto, que reúne as principais informações sobre a FacilitaReabi e leva, por meio de cliques nas fotos, até as outras páginas do site, para melhor entendimento da solução do grupo.
+
+Página Integrantes: Contém o nome, foto, rm e turma de todos os integrantes do grupo, junto com links de perfil do github e linkedin de cada integrante.
+
+Página FAQS: Mostra as principais perguntas que pacientes usuários do aplicativo de teleconsultas do Hospital das Clínicas e do nosso site podem ter.
+
+Página Contato: Uma página com endereço e contatos do Hospital das Clínicas, junto com um formulário a ser preenchido pelo usuário do site com suas informações de contato.
+
+Página FacilitaReabi: É a solução proposta pelo grupo, contém explicações sobre o site e instruçõles sobre como usar uma teleconsulta, com o intuito de instruir o paciente para que ele não falte nas suas consultas.
+
+Página Triagem: É um formulário que identifica se o paciente pode fazer uma teleconsulta, a fim de diminuir a txa de absenteísmo do HC com um melhor filtro dos pacientes.
+
+---
+
 💻 **Tecnologias Utilizadas**
 
 HTML5
@@ -85,5 +101,6 @@ Vitória Valentina Maglio 563509
 Este projeto foi desenvolvido como parte do Challenge proposto pela FIAP, no qual o Hospital das Clínicas apresentou para os alunos do curso Análise e Desenvolvimento de sistemas um problema real que eles enfrentam:
 uma alta taxa de absenteísmo em suas consultas on-lines. Assim, os estudantes devem criar uma solução para esse problema, a fim de auxiliar aqueles com dificuldades em utilizar o celular na saúde digital, diminuindo assim a falta 
 dos pacientes nas teleconsultas.
+A solução do nosso grupo foi criar um site simples para instruir os pacientes sobre o funcionamento do aplicativo do Hospital das Clínicas, destinado às teleconsultas, porque alguns pacientes acabam não comparecendo às consultas por falta de conhecimento tecnológico ou até mesmo por receio das novidades do aplicativo.De forma geral, o projeto visa ajudar o usuário a se familiarizar com a plataforma, fornecendo informações básicas e promovendo maior acessibilidade.
 
 
