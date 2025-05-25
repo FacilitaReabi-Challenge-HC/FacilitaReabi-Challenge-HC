@@ -12,6 +12,8 @@ Ensina como usar o aplicativo Portal do Paciente HC
 Oferece conteúdo acessível e visual para pessoas com baixa afinidade digital
 Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológicas
 
+---
+
 🗂️ **Estrutura do Projeto**
 
                    
@@ -42,6 +44,9 @@ Apoia pacientes em situação de vulnerabilidade ou com dificuldades tecnológic
   ├── triagem.html
 index.html  (raiz do projeto)
 
+
+---
+
 💻 **Tecnologias Utilizadas**
 
 HTML5
@@ -56,6 +61,7 @@ Imagens e ícones explicativos
 
 Estrutura responsiva para dispositivos móveis
 
+--
 
 👥 **Integrantes**
 
@@ -67,9 +73,12 @@ Rafael Rogrigues Trindade 564303
 
 Vitória Valentina Maglio 563509
 
+---
 
 🌐 **Acesse o Repositório**
 🔗 (https://github.com/FacilitaReabi-Challenge-HC/FacilitaReabi-Challenge-HC)
+
+---
 
 📌 **Observações**
 Este projeto foi desenvolvido como parte do Challenge proposto pela FIAP, no qual o Hospital das Clínicas apresentou para os alunos do curso Análise e Desenvolvimento de sistemas um problema real que eles enfrentam:
