@@ -54,7 +54,7 @@ Página Início: É a página inicial do projeto, que reúne as principais infor
 
 Página Integrantes: Contém o nome, foto, rm e turma de todos os integrantes do grupo, junto com links de perfil do github e linkedin de cada integrante.
 
-Página FAQS: Mostra as principais perguntas que pacientes usuários do aplicativo de teleconsultas do Hospital das Clínicas e do nosso site podem ter.
+Página FAQS: Mostra as principais perguntas que usuários do aplicativo de teleconsultas do Hospital das Clínicas e do nosso site podem ter.
 
 Página Contato: Uma página com endereço e contatos do Hospital das Clínicas, junto com um formulário a ser preenchido pelo usuário do site com suas informações de contato.
 
